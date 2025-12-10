@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: carambar-api
+    plan: free
+    runtime: docker
+
+    buildCommand: ""
+    startCommand: ""
+
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: render
