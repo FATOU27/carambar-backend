@@ -10,9 +10,8 @@ import org.springframework.core.io.ClassPathResource;
 
 import com.Carambar.Carambar.entity.Blague;
 import com.Carambar.Carambar.repository.BlagueRepository;
-
-import tools.jackson.core.type.TypeReference;
-import tools.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Configuration
 public class DataLoader {
